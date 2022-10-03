@@ -8,17 +8,18 @@ import './App.css';
 
 
 function App() {
+  let score = 0;
   return (
     <div className="container">
       <div className="header">
         <div className='rps'>
-          <h3>ROCK</h3>
-          <h3>PAPER</h3>
-          <h3>SCISSORS</h3>
+          <span>ROCK</span>
+          <span>PAPER</span>
+          <span>SCISSORS</span>
         </div>
         <div className="score">
-          <p>SCORE</p>
-          <h2>0</h2>
+          <span>SCORE</span>
+          <h2>{score}</h2>
         </div>
       </div>
 
