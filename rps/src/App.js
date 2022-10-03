@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import Logo from './logo.component';
+import Rock from './rock.component';
+import Paper from './paper.component';
+import Scissors from './scissors.component';
 import './App.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="header">
+        <div className='rps'>
+          <h3>ROCK</h3>
+          <h3>PAPER</h3>
+          <h3>SCISSORS</h3>
+        </div>
+        <div className="score">
+          <p>SCORE</p>
+          <h2>0</h2>
+        </div>
+      </div>
+
+      <div className='game'>
+        <Rock/>
+        <Logo/>
+        <Paper/>
+        <Scissors/>
+      </div>
     </div>
   );
 }
