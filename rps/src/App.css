@@ -45,3 +45,34 @@ h2{
   margin: auto;
   font-size: 3rem;
 }
+
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.rock{
+  border: 15px solid red;
+  border-radius: 50%;
+  color: white;
+  padding: 30px;
+  background-color: white;
+}
+
+.paper{
+  border: 12px solid blue;
+  border-radius: 50%;
+  color: white;
+  padding: 30px;
+  background-color: white;
+}
+
+.scissors{
+  border: 12px solid orange;
+  border-radius: 50%;
+  color: white;
+  padding: 30px;
+  background-color: white;
+}

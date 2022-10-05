@@ -24,10 +24,11 @@ function App() {
       </div>
 
       <div className='game'>
-        <Rock/>
-        <Logo/>
-        <Paper/>
-        <Scissors/>
+        <div className='rock'><Rock /></div>
+        <Logo />
+        <div className='paper'><Paper/></div>
+        <div className='scissors'><Scissors/></div>
+        
       </div>
     </div>
   );
